@@ -8,15 +8,15 @@ Juego de ajedrez en tiempo real con soporte para partidas multijugador y contra 
 
 | Portada | Lobby | Crear juego |
 |---------|-------|-------------|
-| ![Portada](docs/1-portada.png) | ![Lobby](docs/2-lobby.png) | ![Crear juego](docs/3-crear-juego.png) |
+| ![Multijugador](docs/8-multijugador.png) | ![Lobby](docs/2-lobby.png) | ![Crear juego](docs/3-crear-juego.png) |
 
 | Juego | Tablero | Ranking |
 |-------|---------|---------|
 | ![Juego](docs/4-juego.png) | ![Tablero](docs/5-tabla-ajedrez.png) | ![Ranking](docs/6-ranking.png) |
 
-| Multijugador |
+| Portada |
 |--------------|
-| ![Multijugador](docs/8-multijugador.png) |
+| ![Portada](docs/1-portada.png) |
 
 ---
 
