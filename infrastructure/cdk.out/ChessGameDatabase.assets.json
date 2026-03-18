@@ -1,0 +1,21 @@
+{
+  "version": "52.0.0",
+  "files": {
+    "642dd6801839da4975c01351682a4900bd26229daa5508e73ec232f5cbd2a0e0": {
+      "displayName": "ChessGameDatabase Template",
+      "source": {
+        "path": "ChessGameDatabase.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "459137896070-us-east-1-28f59258": {
+          "bucketName": "cdk-hnb659fds-assets-459137896070-us-east-1",
+          "objectKey": "642dd6801839da4975c01351682a4900bd26229daa5508e73ec232f5cbd2a0e0.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::459137896070:role/cdk-hnb659fds-file-publishing-role-459137896070-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

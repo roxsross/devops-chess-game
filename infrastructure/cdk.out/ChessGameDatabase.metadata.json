@@ -1,0 +1,68 @@
+{
+  "/ChessGameDatabase/GamesTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GamesTableName"
+    }
+  ],
+  "/ChessGameDatabase/PlayersTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PlayersTableName"
+    }
+  ],
+  "/ChessGameDatabase/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/ChessGameDatabase/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/ChessGameDatabase/GamesTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GamesTableB32AB610"
+    }
+  ],
+  "/ChessGameDatabase/PlayersTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PlayersTable70A03D78"
+    }
+  ],
+  "/ChessGameDatabase/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/ChessGameDatabase/Exports/Output{\"Fn::GetAtt\":[\"GamesTableB32AB610\",\"Arn\"]}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputFnGetAttGamesTableB32AB610Arn3ABA396D"
+    }
+  ],
+  "/ChessGameDatabase/Exports/Output{\"Fn::GetAtt\":[\"PlayersTable70A03D78\",\"Arn\"]}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputFnGetAttPlayersTable70A03D78ArnE95BEEC4"
+    }
+  ],
+  "/ChessGameDatabase/Exports/Output{\"Ref\":\"GamesTableB32AB610\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputRefGamesTableB32AB610F58B24A2"
+    }
+  ],
+  "/ChessGameDatabase/Exports/Output{\"Ref\":\"PlayersTable70A03D78\"}": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsOutputRefPlayersTable70A03D787260C67F"
+    }
+  ]
+}

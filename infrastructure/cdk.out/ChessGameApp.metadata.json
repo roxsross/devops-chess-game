@@ -1,0 +1,134 @@
+{
+  "/ChessGameApp/BackendService": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BackendService"
+    }
+  ],
+  "/ChessGameApp/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/ChessGameApp/AppRunnerServiceUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppRunnerServiceUrl"
+    }
+  ],
+  "/ChessGameApp/AppRunnerServiceArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppRunnerServiceArn"
+    }
+  ],
+  "/ChessGameApp/FrontendBucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FrontendBucketName"
+    }
+  ],
+  "/ChessGameApp/CloudFrontUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CloudFrontUrl"
+    }
+  ],
+  "/ChessGameApp/CloudFrontDistributionId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CloudFrontDistributionId"
+    }
+  ],
+  "/ChessGameApp/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/ChessGameApp/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/ChessGameApp/AppRunnerAccessRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppRunnerAccessRoleC89E5843"
+    }
+  ],
+  "/ChessGameApp/AppRunnerInstanceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppRunnerInstanceRole96A5A063"
+    }
+  ],
+  "/ChessGameApp/FrontendBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FrontendBucketEFE2E19C"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/ChessGameApp/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    }
+  ],
+  "/ChessGameApp/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    }
+  ],
+  "/ChessGameApp/FrontendOAC/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FrontendOACB94BB8F4"
+    }
+  ],
+  "/ChessGameApp/Distribution/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Distribution830FAC52"
+    }
+  ],
+  "/ChessGameApp/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/ChessGameApp/AppRunnerInstanceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AppRunnerInstanceRoleDefaultPolicy35195718"
+    }
+  ],
+  "/ChessGameApp/FrontendBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FrontendBucketPolicy1DFF75D9"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/ChessGameApp/FrontendBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FrontendBucketAutoDeleteObjectsCustomResourceDB860B32"
+    }
+  ]
+}
